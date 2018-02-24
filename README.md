@@ -9,17 +9,24 @@ Install PlatformIO Core like described here:
 https://platformio.org/get-started/cli
 
 Or just run:
-´´´ pip install platformio ´´´
+
+```
+pip install platformio
+```
 
 When PlatformIO is installed, build with:
 
-´´´ platformio run ´´´
+```
+platformio run
+```
+
 
 # Load the app to target
 
 1. Connect the thing to a USB port on your computer.
 2. Remove the light distance detector from the Wemos D1 Mini.
-3. Run ´´´ platformio run --target upload ´´´.
+3. Run ``` platformio run --target upload ```.
+4. Attach the light distance detector again.
 
 # Use it
 When the thing is connected with USB to your computer it should identify
